@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      </head>
       <body
         className={inter.className +
           ' flex flex-col w-full min-h-screen item-center justify-between gap-4' +
